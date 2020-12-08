@@ -5,10 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:dev":"vue-cli-service build --mode development",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "analyzer": "use_analyzer=true npm run serve"
   },
   "dependencies": {
+    "axios": "^0.21.0",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
@@ -22,10 +25,13 @@
     "@vue/eslint-config-airbnb": "^5.0.2",
     "@vue/test-utils": "^1.0.3",
     "babel-eslint": "^10.1.0",
+    "compression-webpack-plugin": "^7.0.0",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "terser-webpack-plugin": "^5.0.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-bundle-analyzer": "^4.2.0"
   },
   "eslintConfig": {
     "root": true,
