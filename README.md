@@ -1,4 +1,13 @@
+<!--
+ * @Description: ReadMe.md
+ * @Author: liwangjun
+ * @Date: 2020-12-08 15:49:06
+ * @LastEditors: liwangjun
+ * @LastEditTime: 2020-12-08 16:11:38
+ * @FilePath: /vue-cli-template/README.md
+-->
 # vue-cli-template
+vue cli 构建的 template
 
 ## Project setup
 ```
@@ -32,3 +41,8 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+
+
