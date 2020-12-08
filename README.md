@@ -3,46 +3,26 @@
  * @Author: liwangjun
  * @Date: 2020-12-08 15:49:06
  * @LastEditors: liwangjun
- * @LastEditTime: 2020-12-08 16:11:38
+ * @LastEditTime: 2020-12-08 16:24:13
  * @FilePath: /vue-cli-template/README.md
 -->
 # vue-cli-template
 vue cli 构建的 template
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
+## 基础功能
+- cdn
+- 打包分析
+- 单测
+## 命令
 ```
+// 启动
 npm run serve
-```
-
-### Compiles and minifies for production
-```
+// 构建
 npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
+// 单测
 npm run test:unit
+// 打包分析
+npm run analyzer
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-
-
-
 
